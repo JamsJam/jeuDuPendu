@@ -27,9 +27,6 @@ window.onload = function(){
     document.querySelector('#start').onclick = function() {
 
         document.querySelector('#indication').style.display = 'none';
-        // '<p>Choisir le mot de depart</p>'+ 
-        // '<input id="votreMot" type="text" placeholder="noter votre mot ici"></input>'+
-        // '<button id="submit" type="button"> envoyer</button>';
         document.querySelector('#start').style.display = 'none';
         document.querySelector('#choixMot').style.display = 'block';
         
